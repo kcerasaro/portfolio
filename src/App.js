@@ -3,6 +3,7 @@ import React from "react";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
+import ContactForm from './ContactForm';
 
 function App() {
   const resumeUrl = `${process.env.PUBLIC_URL}/assets/cerasaro_resume.pdf`;
@@ -101,7 +102,9 @@ function App() {
 
     <div id="contact">
       <h1>Contact</h1>
-      <p>contact section to be added</p>
+      <section id="contact">
+        <ContactForm />
+      </section>
     </div>
   </>
   );
