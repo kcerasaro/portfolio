@@ -64,7 +64,7 @@ h1 {
 }
 
 #resumeButton {
-  min-height: 32px;
+  min-height: 48px;
   background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
   color: #f8fafc;
   font-size: 18px;
@@ -78,6 +78,7 @@ h1 {
   cursor: pointer;
   box-shadow: 0 6px 16px rgba(2, 6, 23, 0.25);
   transition: transform 150ms ease, box-shadow 200ms ease, background-color 200ms ease, opacity 200ms ease;
+  margin-left: 16px;
 }
 
 #resumeButton:hover {
@@ -92,6 +93,41 @@ h1 {
 
 #resumeButton:focus-visible {
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.35), 0 6px 16px rgba(2, 6, 23, 0.25);
+}
+
+.social-icons {
+  display: inline-flex;
+  gap: 12px;
+  margin-left: 12px;
+  vertical-align: middle;
+}
+
+.icon-link {
+  color: #1e293b;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background: #e5e7eb;
+  transition: transform 150ms ease, box-shadow 200ms ease, background-color 200ms ease, color 200ms ease;
+}
+
+.icon-link img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.icon-link:hover {
+  transform: translateY(-1px);
+  background: #cbd5e1;
+  color: #0f172a;
+}
+
+.icon-link:active {
+  transform: translateY(0);
 }
 
 /* Projects */
@@ -129,6 +165,7 @@ h1 {
   object-fit: contain;
   margin-left: 180px;
   transform: none;
+  margin-top:60px;
 }
 #projects a#title {
   font-size: 32px;

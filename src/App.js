@@ -39,6 +39,28 @@ function App() {
     </div>
 
     <div id="resume">
+      <span className="social-icons">
+        <a
+          className="icon-link"
+          href="https://www.linkedin.com/in/kcerasaro"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+          title="LinkedIn"
+        >
+          <img src={`${process.env.PUBLIC_URL}/assets/linkedIn.png`} alt="LinkedIn" />
+        </a>
+        <a
+          className="icon-link"
+          href="https://github.com/kcerasaro"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+          title="GitHub"
+        >
+          <img src={`${process.env.PUBLIC_URL}/assets/gitHub.png`} alt="GitHub" />
+        </a>
+      </span>
       <button id="resumeButton" onClick={handleOpenResume}>My Resume</button>
     </div>
 
