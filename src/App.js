@@ -29,8 +29,8 @@ function App() {
         <div className="about-text">
           <p id="summary">I graduated from Drexel University with a degree in Computer Science in 2025. Throughout my courses and co-ops, 
                           I have gained experience in full-stack web development, mobile app development, and game development.</p>
-          <p id="skills"><b>Languages:</b> Java, Python, C</p>
-          <p id="skills"><b>Frameworks & Tools:</b> React Native, Springboot Java, Git, Figma, Unity</p>
+          <p id="skills"><b>Languages:</b> Java | Python | C</p>
+          <p id="skills"><b>Frameworks & Tools:</b> React Native | Springboot Java | Git | Figma | Unity</p>
           <p id="courses"><b>Relevant Courses:</b> Artificial Intelligence | Machine Learning | Interactive Computer Graphics |
                              Human-Centered Design | Computer Game Design and Development</p>
         </div>
@@ -80,7 +80,7 @@ function App() {
            <p id="projectSummary"> Today, I act as a technical advisor for the current senior project class. Here, I am the first point of contact for
                                    the students from technical questions and troubleshotoing to general guidance through the project. </p>
           
-          <p id="projectTech"><b>Springboot Java | React Native | Typescript | Figma</b></p>
+          <p id="projectTech"><b>Springboot Java | React Native | Typescript | Expo | Figma</b></p>
         </div>
         <img id="projectImg" src={`${process.env.PUBLIC_URL}/assets/p2Logo.png`} alt="Player 2"></img>
       </div>
