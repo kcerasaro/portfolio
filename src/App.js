@@ -79,7 +79,7 @@ function App() {
                                   the web scraper using JSoup in Springboot Java to gather the most recent gaming news. </p>
 
            <p id="projectSummary"> Today, I act as a technical advisor for the current senior project class. Here, I am the first point of contact for
-                                   the students from technical questions and troubleshotoing to general guidance through the project. </p>
+                                   the students from technical questions and troubleshooting to general guidance through the project. </p>
           
           <p id="projectTech"><b>Springboot Java | React Native | Typescript | Expo | Figma</b></p>
         </div>
