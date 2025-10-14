@@ -29,7 +29,7 @@ function App() {
       <div className="about-row">
         <div className="about-text">
           <p id="summary">I graduated from Drexel University with a degree in Computer Science in 2025. Throughout my courses and co-ops, 
-                          I have gained experience in full-stack web development, mobile app development, and game development.~</p>
+                          I have gained experience in full-stack web development, mobile app development, and game development.</p>
 
           <p id="summary">Today, I continue to explore and expand my skills in web and mobile app development. Every day I get to challenge
                           my problem solving skills through developing my own web application and volunteering as a technical advisor on a 
