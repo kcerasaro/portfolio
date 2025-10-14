@@ -72,6 +72,22 @@ function App() {
     <div id="projects">
       <h1>Projects</h1>
 
+       <div className="project-row">
+        <div className="project-text">
+          <a id="title" href="https://github.com/kcerasaro/Star-Rail-Dashboard">Star Rail Dashboard</a>
+          <p id="role">Full-stack developer</p>
+          <p id="projectSummary"> An ongoing project where I dive deep into full-stack development. I am creating a personalized 
+                                  dashboard for one of my favorite games. Here, I am building a REST API that connects to a PostgreSQL
+                                  server, and the endpoints are documented with Swagger. I dig further into understanding MVC through 
+                                  NestJS's easy to learn module system. The frontend, backend, and database are hosted through Docker containers for 
+                                  portability and unified building. As features are added, I hope to develop more skills in development from 
+                                  user authentication to migrations. </p>
+          
+          <p id="projectTech"><b>NestJS | React | Vite | PostgreSQL | Docker | Swagger</b></p>
+        </div>
+        <img id="projectImg" src={`${process.env.PUBLIC_URL}/assets/srdplaceholder.png`} alt="Player 2"></img>
+      </div>
+
       <div className="project-row">
         <div className="project-text">
           <a id="title" href="https://seniorproject.cci.drexel.edu/project/8e6cbfc7-93dc-4cca-ad05-82847a5bb149">Senior Project: Player 2 Game Library</a>
