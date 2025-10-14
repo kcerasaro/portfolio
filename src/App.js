@@ -31,8 +31,10 @@ function App() {
           <p id="summary">I graduated from Drexel University with a degree in Computer Science in 2025. Throughout my courses and co-ops, 
                           I have gained experience in full-stack web development, mobile app development, and game development.~</p>
 
-          <p id="summary">To continue and enhance my skills, I am currently creating a personal dashboard for one of my favorite games.
-                          To create this web app, I am using NestJS, React, Vite, Docker, and PostgreSQL. More to be shown on this soon!</p>
+          <p id="summary">Today, I continue to explore and expand my skills in web and mobile app development. Every day I get to challenge
+                          my problem solving skills through developing my own web application and volunteering as a technical advisor on a 
+                          former project of mine. I am always eager to learn and expand my skillset, and I continue to do so through creating
+                          my own tools and leading others. </p>
 
           <p id="skills"><b>Languages:</b> Java | Python | C</p>
           <p id="skills"><b>Frameworks & Tools:</b> React Native | Springboot Java | Git | Figma | Unity</p>
