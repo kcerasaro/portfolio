@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import ContactForm from './ContactForm';
 
 function App() {
-  const resumeUrl = `${process.env.PUBLIC_URL}/assets/cerasaro_resume.pdf`;
+  const resumeUrl = `${process.env.PUBLIC_URL}/assets/Cerasaro_resume_26102025.pdf`;
   const handleOpenResume = () => {
     window.open(resumeUrl, '_blank', 'noopener,noreferrer');
   };
