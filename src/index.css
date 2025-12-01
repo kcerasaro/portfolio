@@ -1,5 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  background-color: #f1f5f9; /* slate-100 (light blue-gray) */
+  background-color: #f1f5f9;
   font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 0;
+}
+
+.site-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 16px 20px;
+  margin-top: 64px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1100;
 }
